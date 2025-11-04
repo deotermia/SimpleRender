@@ -1,3 +1,0 @@
-/mnt/c/Users/Nikita/Desktop/Render/build/CMakeFiles/SimpleRender.dir
-/mnt/c/Users/Nikita/Desktop/Render/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Nikita/Desktop/Render/build/CMakeFiles/rebuild_cache.dir
