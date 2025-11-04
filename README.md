@@ -43,7 +43,7 @@ make
 SimpleRender/
 ├── build/
     ├── resources/
-        ├── shaders/
+        └── shaders/
 ├── src/
 └── libs/
 ```
