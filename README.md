@@ -19,13 +19,13 @@ sudo apt install build-essential cmake libglfw3-dev libgl1-mesa-dev libx11-dev l
 
 ## Manual Setup
 
-- Download GLFW from [Link](glfw.org)
+- Download GLFW from [Link](https://glfw.org)
   to `libs/glfw/`.
 
-- Generate GLAD from [Link](glad.dav1d.de)
+- Generate GLAD from [Link](https://glad.dav1d.de)
   to `libs/glad/`.
 
-- Download GLM from [Link](github.com/g-truc/glm)
+- Download GLM from [Link](https://github.com/g-truc/glm)
   to `libs/glm/`.
 
 ## Build & Run
