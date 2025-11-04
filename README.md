@@ -41,7 +41,9 @@ make
 
 ```bash
 SimpleRender/
+├── build/
+    ├── resources/
+        ├── shaders/
 ├── src/
-├── libs/
-└── resources/
+└── libs/
 ```
