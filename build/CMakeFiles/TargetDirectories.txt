@@ -1,0 +1,3 @@
+/home/deotermia/Documents/Code/SimpleRender/build/CMakeFiles/SimpleRender.dir
+/home/deotermia/Documents/Code/SimpleRender/build/CMakeFiles/edit_cache.dir
+/home/deotermia/Documents/Code/SimpleRender/build/CMakeFiles/rebuild_cache.dir

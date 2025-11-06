@@ -1,6 +1,6 @@
-#include "Application.hpp"
+#include "core/Application.hpp"
 
 int main() {
-    Application app;
+    RenderCore::Core::Application app;
     return app.Run();
 }
