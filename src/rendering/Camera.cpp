@@ -23,7 +23,7 @@ void Camera::ProcessMouseMovement(float xOffset, float yOffset)
     yOffset *= m_MouseSensitivity;
 
     m_Yaw += xOffset;
-    m_Pitch += yOffset;  // Возвращаем оригинальный знак
+    m_Pitch += yOffset;
 
     if (m_Pitch > 89.0f) m_Pitch = 89.0f;
     if (m_Pitch < -89.0f) m_Pitch = -89.0f;
