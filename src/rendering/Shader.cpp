@@ -2,9 +2,6 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
-
-#define GLFW_INCLUDE_NONE
-#include <GLFW/glfw3.h>
 #include <glad/glad.h>
 
 namespace RenderCore {
@@ -82,5 +79,23 @@ void Shader::Use() const {
     glUseProgram(m_ProgramID);
 }
 
-} // namespace Rendering
-} // namespace RenderCore
+int Shader::GetUniformLocation(const std::string& name) {
+    return glGetUniformLocation(m_ProgramID, name.c_str());
+}
+
+void Shader::SetUniformMat4(const std::string& name, const glm::mat4& matrix) {
+    int location = GetUniformLocation(name);
+    if (location != -1) {
+        glUniformMatrix4fv(location, 1, GL_FALSE, &matrix[0][0]);
+    }
+}
+
+void Shader::SetUniform1i(const std::string& name, int value) {
+    int location = GetUniformLocation(name);
+    if (location != -1) {
+        glUniform1i(location, value);
+    }
+}
+
+}
+}

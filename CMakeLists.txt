@@ -7,15 +7,36 @@ set(SRC_FILES
     src/main.cpp
     src/core/Application.cpp
     src/core/Window.cpp
+    src/core/Input.cpp
     src/rendering/Renderer.cpp
     src/rendering/Shader.cpp
+    src/rendering/Camera.cpp
+    src/scene/Scene.cpp
+    src/scene/GameObject.cpp
+    src/rendering/Texture.cpp
+    src/rendering/buffers/VertexBuffer.cpp
+    src/rendering/buffers/IndexBuffer.cpp
+    src/rendering/DebugRenderer.cpp
+    src/rendering/TextRenderer.cpp
+    src/rendering/SimpleGUI.cpp
+    src/utils/FPSCounter.cpp
+    src/utils/Logger.cpp
     libs/glad/src/glad.c
+    libs/imgui/imgui.cpp
+    libs/imgui/imgui_draw.cpp
+    libs/imgui/imgui_tables.cpp
+    libs/imgui/imgui_widgets.cpp
+    libs/imgui/backends/imgui_impl_glfw.cpp
+    libs/imgui/backends/imgui_impl_opengl3.cpp
 )
 
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/src
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/glad/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/glm
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/imgui
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs
 )
 
 find_package(OpenGL REQUIRED)
