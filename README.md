@@ -22,7 +22,7 @@ A minimalist 3D renderer written in C++ using OpenGL, GLFW, and GLAD. It creates
 
 
 
-\### Linux (UbuntuDebian)
+\### Linux (Ubuntu/Debian)
 
 
 
@@ -34,7 +34,7 @@ sudo apt install build-essential cmake libglfw3-dev libgl1-mesa-dev libx11-dev l
 
 ```
 
-&nbsp;!!! There is no \[GLAD](httpsglad.dav1d.de) package in DebianUbuntu, so be sure to generate it manually.
+&nbsp;!!! There is no \[GLAD](https://glad.dav1d.de) package in Debian/Ubuntu/Arch, so be sure to generate it manually.
 
 \### Linux (Arch)
 
@@ -46,33 +46,35 @@ sudo pacman -Syu
 
 sudo pacman -S base-devel cmake glfw-x11 mesa libx11 libxrandr libxinerama libxcursor libxi glm
 
-
-
+```
+\### AUR install
+```bash
 yay -S glad
 
 ```
 
-&nbsp;Recommendation Generate \[GLAD](httpsglad.dav1d.de) manually
+&nbsp;Recommendation Generate \[GLAD](https://glad.dav1d.de) manually
 
 \## Manual Setup
 
 
 
-\- Download GLFW from \[Link](httpsglfw.org)
+\- Download GLFW from \[Link](https://psglfw.org)
 
-&nbsp; to `libsglfw`.
-
-
-
-\- Generate GLAD from \[Link](httpsglad.dav1d.de)
-
-&nbsp; to `libsglad`.
+&nbsp; to `libs/glfw`.
 
 
 
-\- Download GLM from \[Link](httpsgithub.comg-trucglm)
+\- Generate GLAD from \[Link](https://glad.dav1d.de)
 
-&nbsp; to `libsglm`.
+&nbsp; to `libs/glad/inlude/glad/glad.h`.
+&nbsp; to `libs/glad/src/glad.c`.
+
+
+
+\- Download GLM from \[Link](https://github.comg-trucglm)
+
+&nbsp; to `libs/glm`.
 
 
 
@@ -88,7 +90,7 @@ cmake ..
 
 make
 
-.SimpleRender
+./SimpleRender
 
 ```
 
