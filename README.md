@@ -1,4 +1,4 @@
-\# SimpleRender
+# SimpleRender
 
 
 
@@ -6,7 +6,7 @@ A minimalist 3D renderer written in C++ using OpenGL, GLFW, and GLAD. It creates
 
 
 
-\## Requirements
+## Requirements
 
 
 
@@ -18,11 +18,11 @@ A minimalist 3D renderer written in C++ using OpenGL, GLFW, and GLAD. It creates
 
 
 
-\## Dependencies Installation
+## Dependencies Installation
 
 
 
-\### Linux (Ubuntu/Debian)
+### Linux (Ubuntu/Debian)
 
 
 
@@ -36,7 +36,7 @@ sudo apt install build-essential cmake libglfw3-dev libgl1-mesa-dev libx11-dev l
 
 &nbsp;!!! There is no [GLAD](https://glad.dav1d.de) package in Debian/Ubuntu/Arch, so be sure to generate it manually.
 
-\### Linux (Arch)
+### Linux (Arch)
 
 
 
@@ -47,7 +47,7 @@ sudo pacman -Syu
 sudo pacman -S base-devel cmake glfw-x11 mesa libx11 libxrandr libxinerama libxcursor libxi glm
 
 ```
-\### AUR install
+### AUR install
 ```bash
 yay -S glad
 
@@ -55,7 +55,7 @@ yay -S glad
 
 &nbsp;Recommendation Generate [GLAD](https://glad.dav1d.de) manually
 
-\## Manual Setup
+## Manual Setup
 
 
 
@@ -78,7 +78,7 @@ yay -S glad
 
 
 
-\## Build \& Run
+## Build \& Run
 
 
 
@@ -96,7 +96,7 @@ make
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
