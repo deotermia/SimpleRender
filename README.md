@@ -34,7 +34,7 @@ sudo apt install build-essential cmake libglfw3-dev libgl1-mesa-dev libx11-dev l
 
 ```
 
-&nbsp;!!! There is no \[GLAD](https://glad.dav1d.de) package in Debian/Ubuntu/Arch, so be sure to generate it manually.
+&nbsp;!!! There is no [GLAD](https://glad.dav1d.de) package in Debian/Ubuntu/Arch, so be sure to generate it manually.
 
 \### Linux (Arch)
 
@@ -53,26 +53,26 @@ yay -S glad
 
 ```
 
-&nbsp;Recommendation Generate \[GLAD](https://glad.dav1d.de) manually
+&nbsp;Recommendation Generate [GLAD](https://glad.dav1d.de) manually
 
 \## Manual Setup
 
 
 
-\- Download GLFW from \[Link](https://psglfw.org)
+\- Download GLFW from [Link](https://psglfw.org)
 
 &nbsp; to `libs/glfw`.
 
 
 
-\- Generate GLAD from \[Link](https://glad.dav1d.de)
+\- Generate GLAD from [Link](https://glad.dav1d.de)
 
 &nbsp; to `libs/glad/inlude/glad/glad.h`.
 &nbsp; to `libs/glad/src/glad.c`.
 
 
 
-\- Download GLM from \[Link](https://github.comg-trucglm)
+\- Download GLM from [Link](https://github.comg-trucglm)
 
 &nbsp; to `libs/glm`.
 
@@ -104,27 +104,17 @@ make
 
 SimpleRender
 
-├── includecommon
-
+├── include/common
 ├── resources
-
 │   ├── shaders
-
 │   └── textures
-
 └── src
-
-&nbsp;    ├── core
-
-&nbsp;    ├── rendering
-
-&nbsp;    │    ├── buffers
-
-&nbsp;    │    └── shaders
-
-&nbsp;    ├── scene
-
-&nbsp;    └── utils
+    ├── core
+    ├── rendering
+    │    ├── buffers
+    │    └── shaders
+    ├── scene
+    └── utils
 
 ```
 
